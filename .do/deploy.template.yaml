@@ -1,5 +1,5 @@
 spec:
-  name: sample-laravel
+  name: comic-vault
   services:
   - environment_slug: php
     git:
