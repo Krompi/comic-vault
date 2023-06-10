@@ -19,4 +19,23 @@
 
 <script setup>
 
+import { onMounted } from "vue";
+import {
+    Dropdown,
+    Ripple,
+    Carousel,
+    Datepicker,
+    Input,
+    initTE
+} from "tw-elements";
+
+onMounted(() => {
+    initTE({
+        Dropdown,
+        Ripple,
+        Carousel,
+        Datepicker,
+        Input
+    });
+});
 </script>

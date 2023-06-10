@@ -20,6 +20,7 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');
 })->name('home');
+
 Route::get('/users', function () {
     // sleep(5);
     return Inertia::render('Users');
