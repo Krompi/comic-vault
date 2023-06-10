@@ -1,11 +1,11 @@
 <template>
-    <h1>Home</h1>
-
-    <Nav />
+    <Layout>
+        <h1>Home</h1>
+    </Layout>
 </template>
 
 <script setup>
-    import Nav from '../Shared/Nav.vue'
+    import Layout from '../Layouts/BaseLayout.vue'
 </script>
 
 <style lang="scss" scoped></style>
